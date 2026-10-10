@@ -1,18 +1,19 @@
-const nombre = "JHON"; 
-const programa = "analisis y desarrollo de software";
-const ficha = 3233140; 
-
-let edad = 24;
-let promedio = 4.0;
-promedio = 4.5; // reasignación de valor a la variable promedio
-let estado = "Activo";
+const nombre = "Sebastian";
+const programa = "ADSO";
+const ficha = "3233140";
 
 
-console.log(typeof nombre);
-console.log(typeof programa);
-console.log(typeof ficha);
+let edad = 32;
+let promedioReal = 9.5;
+let esActivo = verdadero;
 
-console.log(typeof edad);
-console.log(typeof promedio);
-console.log(typeof estado);
+consola.registro(tipo de nombre);
+consola.registro(tipo de programa);
+consola.registro(tipo de ficha);
 
+consola.registro(tipo de edad);
+consola.registro(tipo de promedioReal);
+consola.registro(tipo de esActivo);
+
+promedioReal = 6.5;
+consola.registro(promedioReal);
