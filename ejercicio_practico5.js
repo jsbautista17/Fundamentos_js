@@ -1,7 +1,3 @@
-// ============================================
-// ACTIVIDAD PRÁCTICA 5: Repeticiones con sentido
-// ============================================
-
 let menu = prompt("Selecciona una opcion:\n1. Tabla de multiplicar\n2. Suma y promedio de notas\n3. Recorrer fichas\n4. Omitir una ficha con continue\n5. Numeros pares del 1 al 50\n0. Salir"
   );
 
