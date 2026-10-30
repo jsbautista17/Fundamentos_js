@@ -2,7 +2,6 @@ let menu = prompt("Selecciona una opcion:\n1. Tabla de multiplicar\n2. Suma y pr
   );
 
 switch (menu) {
-
     case "1":
       console.log("Tabla de multiplicar:");
       let numero = Number(prompt("Ingresa un numero para ver su tabla:"));
@@ -80,3 +79,20 @@ switch (menu) {
     default:
       console.log("Opcion no válida. Intenta de nuevo.");
   }
+
+  // Reto adicional: Muestra solo los números pares del 1 al 50 usando un for que avance de dos en dos.
+
+
+  let div = document.createElement("div");
+  div.innerHTML = "<h3>Números pares del 1 al 50:</h3>";
+
+  let lista = document.createElement("ul"); 
+
+  for (let i = 2; i <= 50; i += 2) {
+    let li = document.createElement("li");
+    li.innerText = i;          
+    lista.appendChild(li);
+  }
+
+  div.appendChild(lista);    
+  document.body.appendChild(div);

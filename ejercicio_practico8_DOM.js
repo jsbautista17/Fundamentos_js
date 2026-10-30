@@ -35,19 +35,10 @@ for (let tecnologias of tecnologia) {
 }
 
 
-// Reto adicional: Muestra solo los números pares del 1 al 50 usando un for que avance de dos en dos.
+// Reto adicional: Usa querySelectorAll("li") para cambiar el color de fondo de todos los elementos de la lista.
 
+let items = document.querySelectorAll("li");
 
-let div = document.createElement("div");
-div.innerHTML = "<h3>Números pares del 1 al 50:</h3>";
-
-let lista = document.createElement("ul"); 
-
-for (let i = 2; i <= 50; i += 2) {
-  let li = document.createElement("li");
-  li.innerText = i;          
-  lista.appendChild(li);
-}
-
-div.appendChild(lista);    
-document.body.appendChild(div);
+items.forEach(function(item) {
+  item.style.backgroundColor = "#e0f7fa";  
+});
