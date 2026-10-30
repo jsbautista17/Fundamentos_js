@@ -1,0 +1,25 @@
+.tachado {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li {
+    margin: 8px 0;
+    background: #f0f0f0;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+li button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+

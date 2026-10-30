@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos con ja</title>
+</head>
+<body onload="cargarPagina()"> 
+    
+    <h1>Eventos en javascript</h1>
+
+    <button onclick="alert(`Hola mundo`)"> Boton </button>
+
+    <button onclick="saludar();"> Boton 2</button>
+
+    <button id="boton3"> Boton 3</button>
+
+    <button id="boton4"> Boton 4</button>
+
+    <button id="botonFecha"> <Fieldset> Fecha actual</button>
+    <p id="fecha"></p>
+
+    <div id="box" style="width: 200px; height: 100px; padding: 16px; border: 1px solid #000;">
+    mover mouse en esta caja
+    </div>
+
+    <p id="cursor"></p>
+
+    <input id="tecla" type="text" placeholder="preciona una tecla">
+    <p id="mostrarTecla"></p>
+
+      <!--  propagacion de eventos   -->
+
+    <div id="miDiv" style="padding:  20px; background-color: aqua;" >
+        contenedor div
+        <p id="miP" style="background: rgba(47, 0, 255, 0.445); padding: 10px;">parrafo interno (click aqui )</p>
+    </div>          
+
+    <script src="eventos.js"></script>
+</body>
+</html>
